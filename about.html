@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!---
+    Author: Adam Hendrickson
+    Date: 06/26/20
+
+    File name: about.html
+    
+-->
+<html>
+    <head>
+        <title>Learning Experience Design</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style/main_style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div><a href="index.html">Adam Hendrickson</a></div>
+                <ul>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="web_development.html">Web Development</a></li>
+                    <li><a href="software_development.html">Software Development</a></li>
+                    <li><a href="instructional_design.html">Learning Experience Design</a></li>
+                    <li><a href="files/Teaching Resume 2020.docx" class="download" download>Download Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article class="notFullScreen">
+            <h1>About</h1>
+            <div class="line"></div>
+           <img src="images/family_pic.jpg" alt="Picture of Family" width="100%" usemap="#familyMap">
+           <map name="familyMap">
+                <area shape="rect" coords="400,200,650,550" alt="Adam" href="#adam">
+                <area shape="rect" coords="700,220,850,550" alt="Jackie" href="#jackie">
+                <area shape="circle" coords="540,90,70" alt="Jackie" href="#lincoln">
+           </map>
+           <div class="row">
+                <div class="col-1-8">
+                    <img src="images/adam_running.jpg" alt="Adam" id="adam" width="100%">
+                </div>
+                <div class="col-1-2">
+                    <h2>Adam Hendrickson</h2>
+                    <p>I am a high school teacher and cross country coach. I recieved my Bachelor's degree in Management Information Systems and my 
+                        Master's degree in Instructional Technology and Learning Sciences from Utah State University. On my free time you will often find me running or spending time
+                        with my family.</p>
+                </div>
+                <div class="col-1-4">
+                    <h3>Hobbies</h3>
+                    <ul>
+                        <li>Cross Country Coaching</li>
+                        <li>Running</li>
+                        <li>Cooking</li>
+                        <li>Gardening</li>
+                        <li>Watching Movies</li>
+                    </ul>
+                </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-1-8">
+                <img src="images/jackie.jpg" alt="Jackie" id="jackie" width="100%">
+            </div>
+            <div class="col-1-2">
+                <h2>Jackie Hendrickson</h2>
+                <p>Jackie is a soon-to-be Registered Dietition. She also loves running and spending time with our family.</p>
+            </div>
+            <div class="col-1-4">
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>Running</li>
+                    <li>Cooking</li>
+                    <li>Painting</li>
+                    <li>Hikes</li>
+                    <li>Long walks</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-1-8">
+                <img src="images/lincoln.jpg" alt="Lincoln" id="lincoln" width="100%">
+            </div>
+            <div class="col-1-2">
+                <h2>Lincoln Hendrickson</h2>
+                <p>Lincoln is the life of the party in our family. He always gives you the biggest smiles</p>
+            </div>
+            <div class="col-1-4">
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>Jumping</li>
+                    <li>Crawling</li>
+                    <li>Eating</li>
+                </ul>
+            </div>
+        </div>
+        <form action="http://icarus.cs.weber.edu/~linda/cs2350/submit_pet1.php" method="POST">
+            <fieldset>
+                <legend>Contact</legend>
+                <div class="formRow">
+                    <label for="firstName">First Name</label>
+                    <input name="First Name" type="text" id="firstName">
+                </div>
+                <div class="formRow">
+                    <label for="lastName">Last Name</label>
+                    <input name="Last Name" type="text" id="lastName">
+                </div>
+                <div class="formRow">
+                    <label for="email">Email</label>
+                    <input name="Email" type="email" id="email">
+                </div>
+                <div class="formRow">
+                    <label for="message">Message</label>
+                    <textarea name="Message" id="message"></textarea>
+                </div>
+                <div class="formRow">
+                    <input name="submit" type="submit">
+                </div>
+            </fieldset>
+        </form>
+        </article>
+        <footer>
+            <p>&copy; Adam Hendrickson 2020</p>
+        </footer>
+    </body>
+</html>
